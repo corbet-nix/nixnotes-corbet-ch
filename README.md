@@ -4,7 +4,7 @@
 wrote that you decided to keep, and what it takes to be able to find any of it again.**
 
 It renders no Kubernetes object of its own. Everything expressible as an app is expressed in
-[nixk3s](https://github.com/julian-corbet/nixk3s-corbet-ch)'s app grammar; what this repository adds
+[nixk3s](https://github.com/corbet-nix/nixk3s-corbet-ch)'s app grammar; what this repository adds
 is the one thing that grammar cannot know — what a note, a saved page and a rendered picture each
 *are*, and what it costs to lose one.
 
@@ -299,13 +299,14 @@ is claimed.
 ## Related projects
 
 Part of the same independently-usable module family:
-[nixk3s](https://github.com/julian-corbet/nixk3s-corbet-ch) (the app grammar this consumes, and the
+[nixk3s](https://github.com/corbet-nix/nixk3s-corbet-ch) (the app grammar this consumes, and the
 band model its slots answer to),
-[nixdb](https://github.com/julian-corbet/nixdb-corbet-ch) (the database tier — the SQL engine the
+[nixdb](https://github.com/corbet-nix/nixdb-corbet-ch) (the database tier — the SQL engine the
 archive here names as a dependency and this repository does not run), and
-[nixapps](https://github.com/julian-corbet/nixapps-corbet-ch) (ordinary self-hosted applications,
+[nixapps](https://github.com/corbet-nix/nixapps-corbet-ch) (ordinary self-hosted applications,
 which is what everything here would be if this repository had no subject of its own).
 
-## License
 
-MIT License &copy; 2026 Julian Corbet
+## Licence
+
+Outbound licence is `MIT OR Apache-2.0`. See `LICENSE-MIT` and `LICENSE-APACHE`; every source file carries `SPDX-License-Identifier: MIT OR Apache-2.0`.

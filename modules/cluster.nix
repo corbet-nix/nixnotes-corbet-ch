@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 #
 # nixnotes' cluster surface: declare what the personal knowledge surface runs, and render it.
 #

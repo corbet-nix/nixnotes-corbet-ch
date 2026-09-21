@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 #
 # The cluster catalogue: what the personal knowledge surface can run. Four groups, because it
 # genuinely contains four kinds of thing and flattening them would make the model lie:

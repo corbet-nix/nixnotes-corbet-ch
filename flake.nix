@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
 {
   description = "nixnotes — the personal knowledge surface, declared: what you wrote, what somebody else wrote and you kept, and what it takes to be able to find any of it again";
 
@@ -19,7 +20,7 @@
     # constructs the exported cluster module. Checks still compose the resulting module through the
     # real grammar and renderer rather than accepting a module that merely mentions `nixk3s.apps`.
     nixk3s = {
-      url = "git+https://github.com/julian-corbet/nixk3s-corbet-ch";
+      url = "git+https://github.com/corbet-nix/nixk3s-corbet-ch";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.nixidy.follows = "nixidy";
     };
